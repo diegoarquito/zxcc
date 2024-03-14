@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/fondo_carga.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor {
+    text-align: center;
+    color: white; /* Color del texto */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: inline-block;
+}

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/tierra.png'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: 'Creepster', cursive; /* Fuente espeluznante */
+    color: #ffffff; /* Color del texto */
+    text-shadow: 2px 2px 4px #000; /* Sombra para resaltar el texto */
+    margin-bottom: 20px;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0085a7; /* Color del botón */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #008bc6; /* Cambio de color al pasar el cursor sobre el botón */
+  }
